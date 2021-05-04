@@ -16,7 +16,7 @@ Question 1:
 		suggest using the average of the order values in the interdecile range (10% to 
 		90%) to cut out the outliers.
 		
-		If there is a strong desire to have a more continuous metric than the median 
+		Or if there is a strong desire to have a more continuous metric than the median 
 		without cutting out any of the data I might suggest using e^mean(log(x)) where x 
 		is the order values as the primary metric. I would also suggest tracking the 
 		median to make sure the above metric doesn't get heavily skewed if even more 
